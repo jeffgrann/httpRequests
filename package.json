@@ -1,0 +1,56 @@
+{
+    "name": "httpRequests",
+    "version": "1.0.0",
+    "description": "Provides basic HTTP request protocol support.",
+    "main": "./httpRequests.js",
+    "keywords": [
+        "wakanda",
+        "javascript",
+        "HTTP"
+        ],
+    "author": {
+        "name": "Jeff Grann",
+        "web": "httpRequestss://github.com/jeffgrann"
+    },
+    "maintainers": [
+        {
+        "name": "Jeff Grann",
+        "web": "httpRequestss://github.com/jeffgrann"
+    }
+    ],
+    "contributors": [
+        ],
+    "bugs": {
+        "web": "httpRequestss://github.com/jeffgrann/httpRequests/issues"
+    },
+    "licenses": [
+        {
+        "type": "MIT",
+        "url": "httpRequestss://github.com/jeffgrann/httpRequests/blob/master/LICENSE"
+    }
+    ],
+    "repositories": [
+        {
+        "type": "git",
+        "url": "httpRequestss://github.com/jeffgrann/httpRequests"
+    }
+    ],
+    "dependencies": {
+        "http": {
+            "url": "httpRequestss://github.com/jeffgrann/http",
+            "version": "1.0"
+        },
+        "server-side": {
+            "wakanda": "6.146205"
+        },
+        "browser-side": {
+            "requireJS": {
+                "url": "http://requirejs.org",
+                "version": "2.1.8"
+            }
+        }
+    },
+    "os": ["linux", "macos", "win"],
+    "engines": ["wakanda"
+                                  ]
+}
